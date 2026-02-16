@@ -19,9 +19,9 @@
    TAXDeduction = TAXDeduction * TAXRate;
    float TakeHome = salary - (TAXDeduction + NIDeduction);
     // Use only these print statement with appropriate formatting and variable names
-    printf("Salary £...",salary);
-    printf("NI contribution £...",NIDeduction);
-    printf("Tax contribution £...",TAXDeduction);
-    printf("Take home salary £...",TakeHome);
+    printf("%.2f\nSalary £...",salary);
+    printf("%.2f\nNI contribution £...",NIDeduction);
+    printf("%.2f\nTax contribution £...",TAXDeduction);
+    printf("%.2f\nTake home salary £...",TakeHome);
 
  }
